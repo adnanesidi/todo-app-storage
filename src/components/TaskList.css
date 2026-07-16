@@ -1,0 +1,19 @@
+.task-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.task-list-empty {
+  text-align: center;
+  padding: 2rem;
+  color: #999;
+  background: #f9f9f9;
+  border-radius: 8px;
+  border: 2px dashed #e0e0e0;
+}
+
+.task-list-empty p {
+  margin: 0;
+  font-size: 1rem;
+}
